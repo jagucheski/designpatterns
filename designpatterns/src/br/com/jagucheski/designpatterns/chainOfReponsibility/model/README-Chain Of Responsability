@@ -1,0 +1,8 @@
+
+Quando usar Chain Of Responsability?
+
+Este padrão é perfeito quando temos uma lista de comandos a serem executados de acordo com algum cenário em específico, 
+e sabemos também qual o próximo cenário que deve ser validado, caso o anterior não satisfaça a condição.
+
+Assim, o Chain of Responsibility possibilita a separação de responsabilidades em classes pequenas e enxutas, 
+e ainda provê uma maneira flexível e desacoplada de juntar esses comportamentos novamente.
